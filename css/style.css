@@ -122,7 +122,7 @@ article {
 }
 
 article:nth-child(even) {
-    background: #0000ff5c;
+    background:#fafafad6;
     flex-direction: row-reverse
 }
 
