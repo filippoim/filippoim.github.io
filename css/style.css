@@ -416,3 +416,16 @@ audio {
     font-display: swap;
     src: local('Roboto Mono'), url('/fonts/roboto-mono-v12-latin-700.woff2') format('woff2'), url('/fonts/roboto-mono-v12-latin-700.woff') format('woff')
 }
+
+ul {
+    list-style: none;
+    padding-left: 2ch;
+  }
+  ul li {
+    text-indent: -2ch;
+  }
+  ul > li::before {
+    content: '* ';
+    font-weight: bold;
+  }
+  
