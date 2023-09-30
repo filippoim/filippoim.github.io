@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box
 }
+
 body {
     font-family: "Roboto Mono",monospace;
     -webkit-font-smoothing: antialiased;
@@ -122,7 +123,7 @@ article {
 }
 
 article:nth-child(even) {
-    background:#fafafad6;
+    background: #fafafa;
     flex-direction: row-reverse
 }
 
@@ -416,6 +417,7 @@ audio {
     font-display: swap;
     src: local('Roboto Mono'), url('/fonts/roboto-mono-v12-latin-700.woff2') format('woff2'), url('/fonts/roboto-mono-v12-latin-700.woff') format('woff')
 }
+
 
 ul {
     list-style: none;
