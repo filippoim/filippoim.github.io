@@ -191,7 +191,7 @@ article:nth-child(odd)+footer {
     position: sticky;
     height: 100vh;
     display: flex;
-    width: 350px;
+    width: 250px;
     top: 0
 }
 
