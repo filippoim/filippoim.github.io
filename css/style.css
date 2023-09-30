@@ -206,7 +206,7 @@ article:nth-child(odd)+footer {
 }
 
 .tutorial-content {
-    padding: 20px;
+    padding: -220px;
     padding-bottom: 50vh;
     width: 560px;
     color: #222
