@@ -222,14 +222,19 @@ article:nth-child(odd)+footer {
     display: block;
     margin-bottom: 20px;
     max-width: 320px;
-    width: 100%
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .tutorial-content p {
     margin-bottom: 20px;
     line-height: 22px;
     font-size: 15px
 }
+
+
 
 .tutorial-content li {
     font-size: 15px;
