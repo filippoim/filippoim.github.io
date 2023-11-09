@@ -2,6 +2,12 @@
     box-sizing: border-box
 }
 
+::selection {
+    background-color: #3A855D; /* Set the background color for selected text */
+    color: #E4E2DD; /* Set the text color for selected text */
+}
+
+
 body {
     font-family: "Roboto Mono",monospace;
     -webkit-font-smoothing: antialiased;
@@ -77,12 +83,6 @@ a {
 [data-time] {
     padding-top: 30px
 }
-
-::selection {
-    background-color: #3A855D; /* Set the background color for selected text */
-    color: #E4E2DD; /* Set the text color for selected text */
-}
-
 
 footer,header {
     font-weight: 700;
