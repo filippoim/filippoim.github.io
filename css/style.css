@@ -183,17 +183,23 @@ article:nth-child(odd)+footer {
     margin-bottom: 10px
 }
 
+
 .article-links {
     display: inline-block;
     margin-top: 20px
 }
 
 .article-links a {
-    color: #fff;
+    color: #3A855D;
     text-decoration: none;
     border: 2px solid;
     padding: 10px 15px;
     font-weight: 700
+}
+
+.article-links a:hover {
+    background: #3A855D;
+    color: #fff
 }
 
 .sidebar {
