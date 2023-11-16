@@ -198,11 +198,6 @@ article:nth-child(odd)+footer {
     font-weight: 700
 }
 
-.article-links a:hover {
-    background: #000;
-    color: #fff
-}
-
 .sidebar {
     flex-direction: column;
     padding-right: 30px;
